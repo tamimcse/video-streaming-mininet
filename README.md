@@ -1,4 +1,4 @@
-It contains Mininet (http://mininet.org/) scripts to evaluate NC-TCP, XCP and TCP Inigo for video streaming. The details of the experiment will be found in the following research paper:
+It contains Mininet (http://mininet.org/) scripts to evaluate NC-TCP, XCP and TCP Inigo for video streaming. The details of the experiment will be found in the following paper:
 
 ```
 A Network-centric TCP for Interactive Video Delivery Networks (VDN)
@@ -20,12 +20,12 @@ IEEE ICNP, 2017.
 
 All these scripts also internally uses some other scripts. 
 
-cam_streamer.sh --- Captures webcam and stream the video. It can be used as an alternative to gst-streamer which stream a video file.
-bbb.mp4         --- A clip from Big Buck Bunny which is streamed by gst-streamer in the experiment.
-cubic.sh        --- It sets the congestion control algorithm to TCP CUBIC
+* cam_streamer.sh : Captures webcam and stream the video. It can be used as an alternative to gst-streamer which stream a video file.
+* bbb.mp4 : A clip from `Big Buck Bunny` which is streamed by `gst-streamer` in the experiment.
+* cubic.sh : It sets the congestion control algorithm to TCP CUBIC
 
-movedata.sh     --- mininet.sh, parkinglot.sh and rtt.sh uses tcpprobe kernel module to record improtant data such as latency, throuput and so on. movedata.sh moves the data to experiment folder.
+* movedata.sh : `mininet.sh`, `parkinglot.sh` and `rtt.sh` uses `tcpprobe` kernel module to record improtant data such as latency, throuput and so on. `movedata.sh` moves the data to experiment folder.
 
-rtp-streamer.sh  
-rtp-streaming.py --- Uses RTP for video streaming instead of TCP    
+* rtp-streamer.sh : Calls `rtp-streaming.py`
+* rtp-streaming.py : Uses RTP for video streaming instead of TCP
 
