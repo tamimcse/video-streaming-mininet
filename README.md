@@ -1,4 +1,4 @@
-Thses Mininet scripts are used to evaluate NC-TCP, XCP and TCP Inigo for video streaming. The details of the experiment will be found in the following research paper:
+It contains Mininet (`http://mininet.org/`) scripts to evaluate NC-TCP, XCP and TCP Inigo for video streaming. The details of the experiment will be found in the following research paper:
 
 ```
 A Network-centric TCP for Interactive Video Delivery Networks (VDN)
