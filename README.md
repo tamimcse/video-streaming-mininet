@@ -8,7 +8,7 @@ IEEE ICNP, 2017.
 
 
 * mininet.sh : Creates a single bottlenek topology in Mininet. It simply calls 'router.py'.
-* router.py  : The actual mininet script that creates a single bottleneck topology described in the NC-TCP paper. It runs a video streaming source (`gst-streamer`) on the source nodes and video streaming clients (`streaming.sh`) on the video streaming client nodes.
+* router.py  : The actual mininet script that creates a single bottleneck topology described in the NC-TCP paper. It runs a video streaming source (`https://github.com/tamimcse/gst-streamer`) on the source nodes and video streaming clients (`streaming.sh`) on the video streaming client nodes.
 
 parkinglot.sh --- Creates a multiple bottlenek topology in Mininet. It internally uses parkinglot.py which contains the actual mininet script.
 parkinglot.py --- Mininet script that creates a parking lot topology described in the NC-TCP paper. It runs a video streaming source (gst-streamer) on the source nodes  and video streaming clients (streaming.sh) on the video streaming client nodes.
