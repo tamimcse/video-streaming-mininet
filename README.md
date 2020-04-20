@@ -20,7 +20,7 @@ IEEE ICNP, 2017.
 
 All these scripts also internally uses some other scripts. 
 
-* cam_streamer.sh : Captures webcam and stream the video. It can be used as an alternative to gst-streamer which stream a video file.
+* cam_streamer.sh : Captures webcam and stream the video. It can be used as an alternative to `gst-streamer`(https://github.com/tamimcse/gst-streamer) which stream a video file.
 * bbb.mp4 : A clip from `Big Buck Bunny` which is streamed by `gst-streamer` in the experiment.
 * cubic.sh : It sets the congestion control algorithm to TCP CUBIC
 
