@@ -1,6 +1,10 @@
 Thses Mininet scripts are used to evaluate NC-TCP, XCP and TCP Inigo for video streaming. The details of the experiment will be found in the following research paper:
 
-MD Iftakharul Islam, Javed I Khan, "A Network-centric TCP for Interactive Video Delivery Networks (VDN)", IEEE ICNP, 2017.
+```
+A Network-centric TCP for Interactive Video Delivery Networks (VDN)
+MD Iftakharul Islam, Javed I Khan
+IEEE ICNP, 2017.
+```
 
 
 * mininet.sh : Creates a single bottlenek topology in Mininet. It simply calls 'router.py'.
