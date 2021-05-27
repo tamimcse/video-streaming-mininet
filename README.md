@@ -3,7 +3,7 @@ It contains Mininet (http://mininet.org/) scripts to evaluate NC-TCP, XCP and TC
 ```
 A Network-centric TCP for Interactive Video Delivery Networks (VDN)
 MD Iftakharul Islam, Javed I Khan
-IEEE ICNP, 2017.
+IEEE ICNP Workshop PVE-SDN, 2017.
 ```
 
 
